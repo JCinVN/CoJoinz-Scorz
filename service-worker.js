@@ -1,12 +1,13 @@
 // CoJoinz offline support.
 // Bump CACHE_NAME any time index.html changes so returning visitors get the
 // new version instead of a stale cached copy.
-const CACHE_NAME = 'cojoinz-cache-v32-1';
+const CACHE_NAME = 'cojoinz-cache-v32-2';
 const FILES_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
-  './icon-192-v31.png'
+  './icon-192-v32.png',
+  './icon-512-v32.png'
 ];
 
 self.addEventListener('install', (event) => {
